@@ -38,6 +38,7 @@ def can_get_the_first_item_in_the_database
   sql = <<-SQL
   "SELECT MAX(title) FROM movies"
   SQL
+  
 end
 
 def can_get_the_last_item_in_the_database
